@@ -1,13 +1,12 @@
-// Declara uma váriavel sem valor 
-var user 
+/* 
+  Quando uma linguagem de programação é case-sensitive
+  significa que ela é sensível a letras maiúsculas e minúsculas.
 
-console.log(user)
+  Por exemplo: "Rodrigo" é considerado diferente de "rodrigo"
+*/
 
-//Declarar uma variável com valor
-var email = "@gmail.com"
-console.log(email)
+var product = "Teclado Mecânico"
+console.log(product)
 
-//Subistituir o valor da váriavel 
-email = "lucas@email.com"
-console.log(email)
-
+var Product = "Mouse gamer"
+console.log(Product)
