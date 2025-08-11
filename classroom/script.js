@@ -1,12 +1,16 @@
-/* 
-  Quando uma linguagem de programação é case-sensitive
-  significa que ela é sensível a letras maiúsculas e minúsculas.
+// Declarar uma variável sem valor
+let user 
+console.log(user)
 
-  Por exemplo: "Rodrigo" é considerado diferente de "rodrigo"
-*/
+// no let não é possível sobrescrever as variáveis
+// o JS não permite criar duas "let" iguais
 
-var product = "Teclado Mecânico"
-console.log(product)
+// Declara uma variável co mvalor
+let email = "@email.com"
+console.log(email)
 
-var Product = "Mouse gamer"
-console.log(Product)
+email = "lucas@gmail.com"
+console.log(email)
+
+
+//let é uma palavra reservada do JS
