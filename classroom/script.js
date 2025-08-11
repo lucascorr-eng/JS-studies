@@ -1,16 +1,16 @@
-// Declarar uma variável sem valor
-let user 
-console.log(user)
+//variável com um valor fixo - ela não vai alterar
+//Uma constante cria uma variável cujo valor é fixo (não pode ser alterado)
 
-// no let não é possível sobrescrever as variáveis
-// o JS não permite criar duas "let" iguais
+const number = 42
+console.log(number)
 
-// Declara uma variável co mvalor
-let email = "@email.com"
-console.log(email)
+/*
+number = 55
+console.log(number)
 
-email = "lucas@gmail.com"
-console.log(email)
+Gera um erro porque o valor foi alterado
 
+erro do console:
+Uncaught TypeError: Assignment to constant variable.
 
-//let é uma palavra reservada do JS
+*/
