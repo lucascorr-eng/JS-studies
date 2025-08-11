@@ -1,15 +1,13 @@
-/* 
-  - sintaxe -> maniera correta de escrever o código 
-  - além disso o JS tem palavras reservadas let, var , cosnt 
-  
-  - No JS o ponto e virgula ao final das linhas é opcional 
-*/
+// Declara uma váriavel sem valor 
+var user 
 
+console.log(user)
 
-//sintaxe correta
-console.log("Hello World")
-console.log("Hello World");
+//Declarar uma variável com valor
+var email = "@gmail.com"
+console.log(email)
 
-//sintaxe incorreta
-//con.sole.log("erro de sintaxe - vai aparecer um erro no console")
+//Subistituir o valor da váriavel 
+email = "lucas@email.com"
+console.log(email)
 
