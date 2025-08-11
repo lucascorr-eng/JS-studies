@@ -1,11 +1,15 @@
-console.log("Hello World")
-
-console.log("vamos aprender a usar os comentários no CSS")
-
-//isso é um comentário no JS - sera ignorado pelo código
-// é bom para comentários de uma linha 
-
-/*
-é usado para criar comentários de mais de uma linha 
-e desenvolver um raciocíonio maior
+/* 
+  - sintaxe -> maniera correta de escrever o código 
+  - além disso o JS tem palavras reservadas let, var , cosnt 
+  
+  - No JS o ponto e virgula ao final das linhas é opcional 
 */
+
+
+//sintaxe correta
+console.log("Hello World")
+console.log("Hello World");
+
+//sintaxe incorreta
+//con.sole.log("erro de sintaxe - vai aparecer um erro no console")
+
